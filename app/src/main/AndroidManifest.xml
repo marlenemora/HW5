@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HW5">
         <activity
+            android:name=".ViewRecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrowseRecipesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddRecipeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
